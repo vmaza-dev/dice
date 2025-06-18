@@ -1,7 +1,7 @@
 # AUTOR: Victor Maza
 # FECHA: 6/6/25
 '''
-simple program to simulate rolling a die
+simple program to simulate rolling a dice
 '''
 
 # modules
