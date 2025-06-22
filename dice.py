@@ -56,6 +56,7 @@ def roll_die():# obtain the face of the dice after rolling
     ]
 
     die_result = random.randint(1, 6)
+    die_face = []
     match die_result:
         case 1:
             die_face = die_faces[0]
