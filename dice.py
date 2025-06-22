@@ -84,18 +84,20 @@ __     __                                  ____
   \ V /| | | | | | (_| |/ / (_| | |_____| | |_| |  __/\ V / 
    \_/ |_| |_| |_|\__,_/___\__,_|         |____/ \___| \_/   
 ''')
-    print('-' * 20, 'WELCOME TO ROLLING DICE 🎲', '-' * 20)
+    print('-' * 20, 'WELCOME TO ROLLING DICE 0.0 🎲', '-' * 20)
 # main program
-
 
 header()
 user_input = input('\nPress enter to roll the die or q to quit: ')
+roll = 0
 while user_input.lower() != 'q':
+    roll += 1
     header()
     
     result, face = roll_die()
     print(f'You roll a {result}!')
     print(face)
+    print(f'Roll number: {roll}')
     print('-' * 25)
     user_input = input('\nPress enter to roll the die or q to quit: ')
 
